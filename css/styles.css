@@ -1,0 +1,152 @@
+:root {
+  --main-color: #66bfbf;
+  --main-tags-font-family: "Montserrat", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "merriweather", serif;
+  text-align: center;
+}
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 5.6rem;
+  margin-top: 50px auto 0 auto;
+}
+h1,
+h2 {
+  color: var(--main-color);
+  font-weight: normal;
+}
+h2,
+h3 {
+  font-family: var(--main-tags-font-family);
+}
+h2 {
+  font-size: 2.5rem;
+}
+
+h3,
+a {
+  color: #11999e;
+}
+p {
+  color: #40514e;
+  line-height: 2;
+}
+/* Class based */
+
+.top-container {
+  background-color: #e4f9f5;
+  padding-top: 50px;
+  position: relative;
+}
+.clouds {
+  position: absolute;
+}
+.top-cloud {
+  right: 30%;
+  top: 7%;
+}
+.bottom-cloud {
+  left: 30%;
+  bottom: 45%;
+}
+.role-underline {
+  text-decoration: underline;
+}
+
+.middle-container {
+  margin: 70px auto;
+  text-align: center;
+}
+.profile-container {
+  margin-bottom: 50px;
+}
+.profile-image {
+  border-radius: 100%;
+}
+.intro {
+  margin: auto;
+  width: 20%;
+}
+.dotted {
+  border-top-color: #eaf6f6;
+  border-style: none;
+  border-top-style: dotted;
+  border-top-width: 10px;
+  width: 5%;
+}
+.skill-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.skill-row {
+  margin: 50px auto 50px auto;
+  width: 50%;
+}
+.skill-row-one {
+  text-align: left;
+}
+.skill-row-two {
+  text-align: right;
+}
+
+.skill-image {
+  border-radius: 100%;
+  width: 10%;
+}
+.computer-image {
+  float: left;
+  margin-right: 20px;
+}
+.html-image {
+  float: right;
+  margin-left: 20px;
+}
+.contact-me {
+  margin: 20px auto;
+  text-align: center;
+  width: 50%;
+}
+
+.btn {
+  background-color: #11999e;
+  border: none;
+  border-radius: 10px;
+  color: whitesmoke;
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 15px 25px;
+  box-shadow: 0 0 5px #b6eced;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #53c3c7;
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.bottom-container {
+  background-color: var(--main-color);
+  margin: 0 auto;
+  padding: 20px;
+}
+.footer-link {
+  color: #11999e;
+  font-family: var(--main-tags-font-family);
+  margin-right: 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #eaf6f6;
+}
+.copyright {
+  color: #eaf6f6;
+}
